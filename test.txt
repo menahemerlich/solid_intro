@@ -1,1 +1,1 @@
-title: book, author: r.lev, content: story
+title: book, author: r.lev, content: storytitle: book, author: r.lev, content: story

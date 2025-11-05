@@ -1,10 +1,8 @@
-from classes.exercise_s1.book import Book
-class Save_to_file(Book):
 
-
-    def save_to_file(self, filename):
+class Save_to_file:
+    def __init__(self, filename, book):
         with open(f"{filename}.txt", "a") as f:
-            f.write(f"title: {self.title}, author: {self.author}, content: {self.content}")
+            f.write(f"title: {book.title}, author: {book.author}, content: {book.content}")
 
 
 
