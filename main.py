@@ -15,6 +15,7 @@ from classes.exercies_o3.sms_notifier import SMSNotifier
 from classes.exercies_o3.push_notifier import PushNotifier
 from classes.liskov.drone import Drone
 from classes.liskov.tank import Tank
+from classes.exercise_i1.isoldier import Infantry, ForwardObserver, Pilot
 
 book1 = Book("book", "r.lev", "story")
 Save_to_file.Save_to_file("test", book1)
@@ -41,5 +42,9 @@ drone = Drone("drone")
 tank = Tank("tank")
 drone.fly()
 tank.fly()
+infantry = Infantry()
+observer = ForwardObserver()
+pilot = Pilot()
+
 
 
