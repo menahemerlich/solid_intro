@@ -10,6 +10,9 @@ from classes.exercise_o1.rectangle import Rectangle
 from classes.exercise_o2.credit_card import CreditCardPayment
 from classes.exercise_o2.pay_pal import PayPalPayment
 from classes.exercise_o2.crypto import CryptoPayment
+from classes.exercies_o3.email_notifier import EmailNotifier
+from classes.exercies_o3.sms_notifier import SMSNotifier
+from classes.exercies_o3.push_notifier import PushNotifier
 
 book1 = Book("book", "r.lev", "story")
 Save_to_file.Save_to_file("test", book1)
@@ -26,6 +29,11 @@ pay3 = CryptoPayment()
 pay1.pay(10)
 pay2.pay(15)
 pay3.pay(20)
-
+not1 = EmailNotifier()
+not2 = SMSNotifier()
+not3 = PushNotifier()
+not1.send("email")
+not2.send("sms")
+not3.send("push")
 
 
