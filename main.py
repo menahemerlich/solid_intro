@@ -15,7 +15,9 @@ from classes.exercies_o3.sms_notifier import SMSNotifier
 from classes.exercies_o3.push_notifier import PushNotifier
 from classes.liskov.drone import Drone
 from classes.liskov.tank import Tank
-from classes.exercise_i1.isoldier import Infantry, ForwardObserver, Pilot
+from classes.exercise_i1.infantry import Infantry
+from classes.exercise_i1.forward_observer import ForwardObserver
+from classes.exercise_i1.pilot import Pilot
 
 book1 = Book("book", "r.lev", "story")
 Save_to_file.Save_to_file("test", book1)
