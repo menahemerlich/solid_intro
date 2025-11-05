@@ -13,7 +13,8 @@ from classes.exercise_o2.crypto import CryptoPayment
 from classes.exercies_o3.email_notifier import EmailNotifier
 from classes.exercies_o3.sms_notifier import SMSNotifier
 from classes.exercies_o3.push_notifier import PushNotifier
-from classes.liskov.bird_unit import Drone, Tank
+from classes.liskov.drone import Drone
+from classes.liskov.tank import Tank
 
 book1 = Book("book", "r.lev", "story")
 Save_to_file.Save_to_file("test", book1)
