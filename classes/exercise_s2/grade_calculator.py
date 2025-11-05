@@ -1,6 +1,7 @@
 
 class GradeCalculator:
-    def __init__(self, student):
+    @staticmethod
+    def average_grade(student):
         average = 0
         for i in student.grades:
             average += i
